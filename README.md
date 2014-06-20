@@ -1,4 +1,4 @@
-oddleague
-=========
+Low Fructose
+============
 
-Fantasy sports done right.
+More football, less sugar.
