@@ -6,7 +6,4 @@
 standard-app-packages
 autopublish
 insecure
-underscore
-foundation
 react
-scss
