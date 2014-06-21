@@ -3,7 +3,7 @@
 if (Meteor.isClient) {
   Meteor.startup(function() {
     React.renderComponent(
-      <Navbar />,
+      <Topbar leagueName="Some soccer league!" userName="Joe Schmoe"/>,
       document.body
     );
   });
