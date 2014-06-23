@@ -3,7 +3,7 @@
 if (Meteor.isClient) {
   Meteor.startup(function() {
     React.renderComponent(
-      <Topbar leagueName="League Name" userName="Joe Schmoe"/>,
+      <Sidebar />,
       document.body
     );
   });
