@@ -2,14 +2,22 @@
 
 Sidebar = React.createClass({
   render: function() {
+    var items = this.props.items.map(function(item) {
+      return <SidebarItem item={item} />;
+    })
     return (
-      <div className="side-bar pure-menu pure-menu-open">
+      <div id="side-bar" className="side-bar pure-menu pure-menu-open">
         <ul>
-          <li>side menu item</li>
-          <li>side menu item2</li>
+          {items}
         </ul>
       </div>
     );
   }
 });
+
+var SidebarItem = React.createClass({
+  render: function() {
+    return (<li>{this.props.item}</li>);
+  }
+})
 

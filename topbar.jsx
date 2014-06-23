@@ -6,7 +6,7 @@ Topbar = React.createClass({
     // TODO: add in League object (or something like that)
     // TODO: add drop down for leagues
     return (
-      <div className="top-bar pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+      <div id="top-bar" className="pure-menu pure-menu-open pure-menu-horizontal">
           <a className="pure-menu-heading" href="">LOW FRUCTOSE</a>
           <a className="pure-menu-heading">{this.props.leagueName}</a>
 

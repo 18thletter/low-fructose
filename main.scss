@@ -5,6 +5,10 @@ html, button, input, select, textarea,
     font-weight: 400;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -12,8 +16,12 @@ html, button, input, select, textarea,
 }
 
 body {
-    line-height: 1.7em;
-    font-size: 13px;
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+}
+
+#side-bar {
+    width: 15rem;
 }
 
 
