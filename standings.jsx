@@ -6,7 +6,7 @@ Standings = React.createClass({
       return <TeamStanding team={team} />;
     })
     return (
-      <table className="pure-table">
+      <table className="pure-table pure-table-striped pure-table-horizontal">
         <thead>
           <tr>
             <th>Ranking</th>

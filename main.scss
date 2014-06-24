@@ -9,6 +9,7 @@ html {
     font-size: 62.5%;
 }
 
+/* Get that nice border-box display--just makes more sense */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -16,8 +17,8 @@ html {
 }
 
 body {
-    line-height: 1.7rem;
-    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-size: 8px; font-size: 0.8rem;
 }
 
 #side-bar {
@@ -30,10 +31,10 @@ body {
  * On tablets and other medium-sized devices, we want to customize some
  * of the mobile styles.
  */
-@media (min-width: 48em) {
+@media (min-width: 48rem) {
 
     /* Increase the body font size */
     body {
-        font-size: 16px;
+        font-size: 10px; font-size: 1rem;
     }
 }
