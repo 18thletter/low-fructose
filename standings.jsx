@@ -1,10 +1,24 @@
 /** @jsx React.DOM */
 
+Teams = new Meteor.Collection("fantasyTeams");
+var teams = Teams.find();
+
 Standings = React.createClass({
+  // this is needed for the react-meteor plugin
+  mixins: [ReactMeteor.Mixin],
+
+  getInitialState: function() {
+    return {teams: teams};
+  },
+
+  getMeteorState: function() {
+    return {teams: teams};
+  },
+
   render: function() {
     var teams = this.props.teams.map(function(team) {
       return <TeamStanding team={team} />;
-    })
+    });
     return (
       <table className="pure-table pure-table-striped pure-table-horizontal">
         <thead>
