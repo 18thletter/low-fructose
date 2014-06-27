@@ -47,7 +47,7 @@ if (Meteor.isServer) {
     // update world cup stats every day at 3am
     var now = new Date();
     var milliTil3 = new Date(
-      now.getFullYear(), now.getMonth(), now.getDate, 3, 0, 0, 0
+      now.getFullYear(), now.getMonth(), now.getDate(), 3, 0, 0, 0
     ) - now;
     if (milliTil3 < 0) {
       // if it's past 3, set for tomorrow
@@ -59,7 +59,7 @@ if (Meteor.isServer) {
         WorldCup.updateStats();
       },
       // every 24 hrs
-      86400000);
+      24 * 3600 * 1000);
     },
     milliTil3);
   });
