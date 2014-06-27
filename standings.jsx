@@ -4,7 +4,6 @@ Teams = new Meteor.Collection("fantasyTeams");
 var teams = Teams.find();
 
 Standings = React.createClass({
-  // this is needed for the react-meteor plugin
 
   getInitialState: function() {
     return {teams: teams};
