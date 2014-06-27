@@ -10,11 +10,22 @@ WorldCup = {
   kimonoAPIkey: "da9ae03d1f22eeee1d359b0db1fb2851",
   worldcupAPIurl: "http://worldcup.kimonolabs.com/api/",
 
+  // for daily updating of stats:
+  // only player stats, team stats, and match stats need to be updated
   updateStats: function() {
     WorldCup.updatePlayerStats();
     WorldCup.updateTeamStats();
     WorldCup.updateMatchStats();
   },
+
+  // for running once, to initially populate the database with data
+  populateData: function() {
+    WorldCup.updatePlayerStats();
+    WorldCup.updateTeamStats();
+    WorldCup.updateClubStats();
+    WorldCup.updateMatchStats();
+    WorldCup.updatePlayerSeasonStats();
+  }
 
   updatePlayerStats: function() {
     console.log("Updating player stats...\n")
