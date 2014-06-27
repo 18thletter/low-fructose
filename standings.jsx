@@ -5,7 +5,6 @@ var teams = Teams.find();
 
 Standings = React.createClass({
   // this is needed for the react-meteor plugin
-  mixins: [ReactMeteor.Mixin],
 
   getInitialState: function() {
     return {teams: teams};

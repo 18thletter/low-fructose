@@ -25,7 +25,7 @@ WorldCup = {
     WorldCup.updateClubStats();
     WorldCup.updateMatchStats();
     WorldCup.updatePlayerSeasonStats();
-  }
+  },
 
   updatePlayerStats: function() {
     console.log("Updating player stats...\n")
