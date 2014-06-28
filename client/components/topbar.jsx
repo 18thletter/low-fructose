@@ -5,6 +5,7 @@ Topbar = React.createClass({
     // TODO: change userName to User.userName in the future when we add in User
     // TODO: add in League object (or something like that)
     // TODO: add drop down for leagues
+    // are we logged in?
     return (
       <div id="top-bar" className="pure-menu pure-menu-open pure-menu-horizontal">
           <a className="pure-menu-heading" href="">LOW FRUCTOSE</a>

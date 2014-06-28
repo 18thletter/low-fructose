@@ -20,11 +20,7 @@ if (Meteor.isClient) {
     ];
 
     React.renderComponent(
-      <div>
-        <Topbar leagueName="League Name" userName="User Name" />
-        <Sidebar items={sidebarItems} />
-        <Standings teams={teams} />
-      </div>,
+      <Landing />,
       document.body
     );
   });

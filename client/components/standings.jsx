@@ -46,5 +46,5 @@ var TeamStanding = React.createClass({
       </tr>
     );
   }
-})
+});
 
