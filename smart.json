@@ -1,6 +1,7 @@
 {
   "packages": {
+    "routecore": {},
     "scss": {},
-    "routecore": {}
+    "bower": {}
   }
 }

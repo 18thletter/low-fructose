@@ -1,0 +1,7 @@
+{
+  "includePaths": [
+    ".meteor/local/bower",
+    "client/css/vendor",
+    "client/css"
+  ]
+}

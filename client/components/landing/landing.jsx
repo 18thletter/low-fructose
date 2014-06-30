@@ -3,7 +3,7 @@
 Landing = React.createClass({
   render: function() {
     return (
-      <div className="splash pure-g">
+      <div className="splash">
         <div className="pure-u-1-8"></div>
         <div className="pure-u-3-4">
           <div className="pure-g">
