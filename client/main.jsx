@@ -19,15 +19,11 @@ if (Meteor.isClient) {
       {rank: 6, name: "what the hell is soccer", wins: 0, losses: 5}
     ];
 
-    React.renderComponent(
-      <Landing />,
-      document.body
-    );
+    //React.renderComponent(
+      //<Landing />,
+      //document.body
+    //);
   });
 
-  // for testing purposes
-  //Meteor.call("getPlayerStats", function(error, result) {
-    //console.log(result.data);
-  //});
 }
 
