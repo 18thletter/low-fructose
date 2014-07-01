@@ -2,20 +2,22 @@
 
 Landing = React.createClass({
   render: function() {
+    // todo: eventually we will put the logo into the background image itself,
+    // once we figure out what the logo is
     return (
-      <div className="splash">
-        <div className="pure-u-1-8"></div>
-        <div className="pure-u-3-4">
-          <div className="pure-g">
-            <h2 className="logo pure-u-1-2">Low Fructose</h2>
+      <div className="landing">
+        <div className="landing-inner">
+          <div className="landing-top">
+            <div className="logo">Low Fructose</div>
             <SignInButton />
           </div>
-          <h1 className="catchphrase">More sports, less sugar.</h1>
-          <p className="tagline">Tired of the same old fantasy sports? So are we.</p>
-          <p className="tagline">Low Fructose does sports right, and we think you'll agree.</p>
+          <div className="landing-middle">
+            <h1>More sports, less sugar.</h1>
+            <p>Tired of the same old fantasy sports? So are we.</p>
+            <p>Low Fructose does sports right, and we think you'll agree.</p>
+          </div>
           <RegisterForm />
         </div>
-        <div className="pure-u-1-8"></div>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 // Typography
-@include font-face(Lato, 'fonts/lato.css');
+@include font-face(lato, 'fonts/lato.css');
 $lato: 'Lato', sans-serif;
 $sans-serif: $helvetica;
 $serif: $georgia;
@@ -15,10 +15,16 @@ $base-border-radius: em(3);
 
 // Colors
 $blue: #477DCA;
-$bright_blue: #455ede;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #DDD;
+$bright-blue: #455ede;
+$light-blue: #afbfff;
+$dark-blue: #2a36b1;
+$coral: #ff7043;
+$light-coral: #ffccbc;
+$dark-coral: #f4511e;
+$dark-gray: shade(white, 87%);
+$medium-gray: shade(white, 54%);
+$light-gray: shade(white, 26%);
+$really-light-gray: shade(white, 12%);
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
@@ -28,11 +34,11 @@ $base-background-color: white;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $bright_blue;
+$base-accent-color: $bright-blue;
 
 // Link Colors
 $base-link-color: $base-accent-color;
-$hover-link-color: darken($base-accent-color, 15);
+$hover-link-color: $dark-blue;
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
 

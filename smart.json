@@ -1,7 +1,5 @@
 {
   "packages": {
-    "routecore": {},
-    "scss": {},
-    "bower": {}
+    "routecore": {}
   }
 }

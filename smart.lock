@@ -2,25 +2,13 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "routecore": {},
-      "scss": {},
-      "bower": {}
+      "routecore": {}
     },
     "packages": {
       "routecore": {
         "git": "https://github.com/mystor/meteor-routecore.git",
         "tag": "v0.1.3",
         "commit": "38e2a3f02182754e2b155fdbbb866f61273e2023"
-      },
-      "scss": {
-        "git": "https://github.com/fourseven/meteor-scss.git",
-        "tag": "v0.9.3",
-        "commit": "185f3b2787fb85e653f7b7bf603d1493ed14943d"
-      },
-      "bower": {
-        "git": "https://github.com/mquandalle/meteor-bower.git",
-        "tag": "v0.1.8",
-        "commit": "5699c3f29a936dcb2aa1221a9febd4669764fc91"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
