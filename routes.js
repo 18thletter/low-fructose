@@ -1,7 +1,7 @@
 Routes = {};
 
-RouteCore.map(function() {
+Router.map(function() {
   var self = this;
-  //Routes.home = self.route('/', Landing);
-  Routes.register = self.route('/register', Register);
+  Routes.home = self.route('Landing', {path: '/'});
+  Routes.register = self.route('Register', {path: '/register'});
 });

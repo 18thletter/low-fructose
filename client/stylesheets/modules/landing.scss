@@ -66,29 +66,14 @@ html, body {
             }
         }
 
-        form {
-            font-size: 1.1em;
-
-
-            fieldset {
-            * {
-                width: 100%;
-                @include media($medium-screen) {
-                    display: inline-block;
-                    width: auto;
-                    vertical-align: middle;
-                    margin: 1rem;
-                    font-size: 1.2em;
-                }
-            }
-                border: 0;
-                background: 0;
-                padding: 0;
-
-                input {
-                    line-height: inherit;
-                    color: $base-font-color;
-                }
+        button {
+            width: 100%;
+            @include media($medium-screen) {
+                display: inline-block;
+                width: auto;
+                vertical-align: middle;
+                margin: 1rem;
+                font-size: 1.2em;
             }
         }
     }

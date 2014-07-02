@@ -7,10 +7,10 @@ standard-app-packages
 autopublish
 insecure
 http
-routecore
 accounts-ui
 accounts-password
 accounts-base
 accounts-facebook
 accounts-google
 jquery
+iron-router

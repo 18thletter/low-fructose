@@ -623,24 +623,15 @@ html, body {
         @media screen and (min-width: 53.75em) {
           .landing .landing-inner .landing-middle p {
             font-size: 1.8em; } }
-    .landing .landing-inner form {
-      font-size: 1.1em; }
-      .landing .landing-inner form fieldset {
-        border: 0;
-        background: 0;
-        padding: 0; }
-        .landing .landing-inner form fieldset * {
-          width: 100%; }
-          @media screen and (min-width: 40em) {
-            .landing .landing-inner form fieldset * {
-              display: inline-block;
-              width: auto;
-              vertical-align: middle;
-              margin: 1rem;
-              font-size: 1.2em; } }
-        .landing .landing-inner form fieldset input {
-          line-height: inherit;
-          color: #212121; }
+    .landing .landing-inner button {
+      width: 100%; }
+      @media screen and (min-width: 40em) {
+        .landing .landing-inner button {
+          display: inline-block;
+          width: auto;
+          vertical-align: middle;
+          margin: 1rem;
+          font-size: 1.2em; } }
 
 header.navigation {
   background-color: #212121;
