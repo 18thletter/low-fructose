@@ -654,7 +654,6 @@ div.register header.navigation {
       display: table;
       clear: both; }
   div.register header.navigation .logo {
-    float: left;
     max-height: 60px;
     padding-left: 1em;
     padding-right: 2em; }
@@ -662,13 +661,3 @@ div.register header.navigation {
       max-height: 60px;
       padding: .8em 0;
       color: white; }
-  div.register header.navigation .navigation-menu-button {
-    color: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
-    display: block;
-    text-align: center;
-    font-weight: 700;
-    line-height: 60px;
-    margin: 0;
-    padding-right: 1em;
-    text-transform: uppercase; }

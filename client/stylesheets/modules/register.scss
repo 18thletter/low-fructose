@@ -1,46 +1,34 @@
 div.register {
     header.navigation {
-      $navigation-padding: 1em;
-      $navigation-background: $base-accent-color;
-      $navigation-color: transparentize(white, 0.3);
-      $navigation-height: 60px;
+        $navigation-padding: 1em;
+        $navigation-background: $base-accent-color;
+        $navigation-color: transparentize(white, 0.3);
+        $navigation-height: 60px;
 
-      background-color: $navigation-background;
-      border-bottom: 1px solid darken($navigation-background, 10);
-      height: $navigation-height;
-      width: 100%;
-      z-index: 999;
+        background-color: $navigation-background;
+        border-bottom: 1px solid darken($navigation-background, 10);
+        height: $navigation-height;
+        width: 100%;
+        z-index: 999;
 
-      .menu-wrapper {
-        @include outer-container;
-        @include clearfix;
-        position: relative;
-        z-index: 9999;
-      }
-
-      .logo {
-        float: left;
-        max-height: $navigation-height;
-        padding-left: $navigation-padding;
-        padding-right: 2em;
-
-        img {
-          max-height: $navigation-height;
-          padding: .8em 0;
-          color: white;
+        .menu-wrapper {
+            @include outer-container;
+            @include clearfix;
+            position: relative;
+            z-index: 9999;
         }
-      }
 
-      .navigation-menu-button {
-        color: $navigation-color;
-        cursor: pointer;
-        display: block;
-        text-align: center;
-        font-weight: 700;
-        line-height: $navigation-height;
-        margin: 0;
-        padding-right: 1em;
-        text-transform: uppercase;
-      }
+        .logo {
+            max-height: $navigation-height;
+            padding-left: $navigation-padding;
+            padding-right: 2em;
+
+            img {
+                max-height: $navigation-height;
+                padding: .8em 0;
+                color: white;
+            }
+        }
+
     }
 }
