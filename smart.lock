@@ -4,7 +4,8 @@
     "basePackages": {
       "iron-router": {},
       "collection2": {},
-      "autoform": {}
+      "autoform": {},
+      "simple-form": {}
     },
     "packages": {
       "iron-router": {
@@ -22,6 +23,11 @@
         "tag": "v0.14.0",
         "commit": "30de032833052ea61e9d37bca5523264309d4478"
       },
+      "simple-form": {
+        "git": "https://github.com/Differential/simple-form.git",
+        "tag": "v0.1.8",
+        "commit": "1ea0d3621b333e6f24f37e0e93efd3c081068716"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -36,6 +42,11 @@
         "git": "https://github.com/acreeger/meteor-moment.git",
         "tag": "v2.6.0",
         "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
       }
     }
   }

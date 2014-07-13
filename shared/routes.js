@@ -11,11 +11,12 @@ Router.map(function() {
     onBeforeAction: function() {
       Session.set('entryError', undefined);
     },
-    onRun: function() {
-      if (Meteor.userId()) {
-        Router.go('dashboard');
-      }
-    }
+    //onRun: function() {
+      //if (Meteor.userId()) {
+        //Router.go('dashboard');
+      //}
+    //}
   });
 
 });
+

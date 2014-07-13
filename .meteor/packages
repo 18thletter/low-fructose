@@ -10,10 +10,10 @@ http
 accounts-ui
 accounts-password
 accounts-base
-accounts-facebook
-accounts-google
 jquery
 iron-router
 collection2
 autoform
 fast-render
+underscore
+simple-form

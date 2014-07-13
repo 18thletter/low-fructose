@@ -1,8 +1,11 @@
 <template name="SignUpForm">
+<!--
   <form>
     <fieldset>
       <input type="email" placeholder="Email Address" />
       <button type="submit">Sign Up</button>
     </fieldset>
   </form>
+  -->
+  {{> quickForm schema=Schemas.User id="signupform" type="insert"}}
 </template>
