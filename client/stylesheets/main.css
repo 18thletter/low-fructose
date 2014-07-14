@@ -916,7 +916,7 @@ img {
   height: auto; }
 
 .img-rounded {
-  border-radius: 4px; }
+  border-radius: 3px; }
 
 .img-thumbnail {
   padding: 4px;
@@ -2426,7 +2426,7 @@ select[multiple].input-sm,
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 4px; }
+  border-radius: 3px; }
 
 select.input-lg, .form-horizontal .form-group-lg select.form-control, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
@@ -2787,7 +2787,7 @@ select[multiple].input-lg,
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 4px; }
+  border-radius: 3px; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
@@ -3180,7 +3180,7 @@ tbody.collapse.in {
   .input-group-lg > .input-group-btn > .input-group-addon.btn {
     padding: 10px 16px;
     font-size: 18px;
-    border-radius: 4px; }
+    border-radius: 3px; }
   .input-group-addon input[type="radio"],
   .input-group-addon input[type="checkbox"] {
     margin-top: 0; }
@@ -3775,12 +3775,12 @@ tbody.collapse.in {
   font-size: 18px; }
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px; }
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px; }
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px; }
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px; }
 
 .pagination-sm > li > a,
 .pagination-sm > li > span {
@@ -3931,7 +3931,7 @@ a.badge:hover, a.badge:focus {
   .jumbotron > hr {
     border-top-color: #c7c7c7; }
   .container .jumbotron {
-    border-radius: 4px; }
+    border-radius: 3px; }
   .jumbotron .container {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
@@ -4576,7 +4576,7 @@ a.list-group-item-danger {
 
 .well-lg {
   padding: 24px;
-  border-radius: 4px; }
+  border-radius: 3px; }
 
 .well-sm {
   padding: 9px;
@@ -4644,7 +4644,7 @@ button.close {
   background-color: white;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
@@ -4818,7 +4818,7 @@ button.close {
   background-clip: padding-box;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal; }
@@ -4839,7 +4839,7 @@ button.close {
   line-height: 18px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-radius: 3px 3px 0 0; }
+  border-radius: 2px 2px 0 0; }
 
 .popover-content {
   padding: 9px 14px; }
@@ -5313,6 +5313,46 @@ button.close {
   font-style: italic;
   font-weight: 400;
   src: local("Lato Italic"), local("Lato-Italic"), url(http://themes.googleusercontent.com/static/fonts/lato/v7/LqowQDslGv4DmUBAfWa2Vw.ttf) format("truetype"); }
+.landing {
+  background-image: url("images/splash4.jpg");
+  min-height: 672px;
+  margin-bottom: 0; }
+  .landing .landing-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 972px;
+    color: white;
+    text-shadow: .1em .1em black; }
+    .landing .landing-inner .logo {
+      fill: white; }
+    .landing .landing-inner .logo:hover {
+      fill: #e0e0e0; }
+    .landing .landing-inner .landing-top button {
+      color: white;
+      background-color: transparent;
+      border: solid 2px white;
+      font-weight: bold; }
+    .landing .landing-inner .landing-top button:hover {
+      color: #757575;
+      background-color: white; }
+    .landing .landing-inner .landing-middle {
+      text-align: center;
+      margin-bottom: 5rem; }
+      .landing .landing-inner .landing-middle h1 {
+        font-size: 82px;
+        font-weight: bold;
+        margin: 4rem 0 4rem 0; }
+      .landing .landing-inner .landing-middle p {
+        font-weight: 400;
+        font-size: 29px; }
+    .landing .landing-inner #registerButton {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 29px;
+      font-weight: bold; }
+
 /*
 The MIT License (MIT)
 
