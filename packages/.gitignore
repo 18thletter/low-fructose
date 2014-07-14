@@ -16,3 +16,5 @@
 /moment
 /simple-form
 /underscore-string-latest
+/crypto-sha256
+/crypto-base
