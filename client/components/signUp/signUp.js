@@ -171,5 +171,11 @@ AccountsEntry.entrySignUpEvents = {
 };
 
 Template.entrySignUp.helpers(AccountsEntry.entrySignUpHelpers);
+Template.entrySignUp.rendered = function() {
+  $('<link>', {
+    href: "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css",
+    rel: "stylesheet"
+  }).appendTo('head');
+}
 
 Template.entrySignUp.events(AccountsEntry.entrySignUpEvents);

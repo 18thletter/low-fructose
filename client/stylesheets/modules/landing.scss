@@ -1,6 +1,11 @@
 // this is the background
 .landing {
+    // background
     background-image: url("images/splash4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     min-height: 672px;
     margin-bottom: 0;
 

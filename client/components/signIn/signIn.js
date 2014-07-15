@@ -71,5 +71,11 @@ AccountsEntry.entrySignInEvents = {
 };
 
 Template.entrySignIn.helpers(AccountsEntry.entrySignInHelpers);
+Template.entrySignIn.rendered = function() {
+  $('<link>', {
+    href: "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css",
+    rel: "stylesheet"
+  }).appendTo('head');
+}
 
 Template.entrySignIn.events(AccountsEntry.entrySignInEvents);

@@ -42,12 +42,6 @@ UI.registerHelper('capitalize', function(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 });
 
-UI.registerHelper('signupClass', function() {
-  if (AccountsEntry.settings.showOtherLoginServices && Accounts.oauth && Accounts.oauth.serviceNames().length > 0) {
-    return "collapse";
-  }
-});
-
 UI.registerHelper('signedIn', function() {
   if (Meteor.user()) {
     return true;
