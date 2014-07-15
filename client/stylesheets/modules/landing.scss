@@ -25,15 +25,16 @@
             fill: $gray-lighter;
         }
 
-        .landing-top button {
+        .landing-top a.btn.pull-right {
             color: white;
             background-color: transparent;
             border: solid 2px white;
+            text-shadow: none;
             font-weight: bold;
-        }
-        .landing-top button:hover {
-            color: $gray;
-            background-color: white;
+            &:hover {
+                color: $gray;
+                background-color: white;
+            }
         }
 
         .landing-middle {
@@ -50,11 +51,12 @@
             }
         }
 
-        #registerButton {
+        a.btn-primary {
             // center the button
             @include center-block();
             font-size: 29px;
             font-weight: bold;
+            max-width: 563px;
         }
     }
 }

@@ -5331,14 +5331,15 @@ button.close {
       fill: white; }
     .landing .landing-inner .logo:hover {
       fill: #e0e0e0; }
-    .landing .landing-inner .landing-top button {
+    .landing .landing-inner .landing-top a.btn.pull-right {
       color: white;
       background-color: transparent;
       border: solid 2px white;
+      text-shadow: none;
       font-weight: bold; }
-    .landing .landing-inner .landing-top button:hover {
-      color: #757575;
-      background-color: white; }
+      .landing .landing-inner .landing-top a.btn.pull-right:hover {
+        color: #757575;
+        background-color: white; }
     .landing .landing-inner .landing-middle {
       text-align: center;
       margin-bottom: 5rem; }
@@ -5349,12 +5350,13 @@ button.close {
       .landing .landing-inner .landing-middle p {
         font-weight: 400;
         font-size: 29px; }
-    .landing .landing-inner #registerButton {
+    .landing .landing-inner a.btn-primary {
       display: block;
       margin-left: auto;
       margin-right: auto;
       font-size: 29px;
-      font-weight: bold; }
+      font-weight: bold;
+      max-width: 563px; }
 
 /*
 The MIT License (MIT)
